@@ -9,8 +9,23 @@ The trained model, after completion, is approximately 400MB in size. Due to GitH
 ## Instructions for Running the App Locally
 Follow these steps to set up and run the project locally on your machine:
 
-### Step 1: Clone the Repository
+### Clone the Repository
 To get started, you need to clone this repository to your local machine:
 
+Navigate to the Directory Where You Want to Clone
+
+In the terminal, type the following command:
 ```bash
-https://github.com/Achalavimukthi/car_identifier.git
+git clone https://github.com/Achalavimukthi/car_identifier.git
+```
+
+Navigate to the Cloned Repository Folder
+Run the following code first
+```bash
+python train_model.py
+```
+Wait some time until complete training modle 
+then run following code
+```bash
+streamlit run app.py
+```
