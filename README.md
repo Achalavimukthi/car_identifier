@@ -13,4 +13,4 @@ Follow these steps to set up and run the project locally on your machine:
 To get started, you need to clone this repository to your local machine:
 
 ```bash
-git clone <your-repository-link>
+https://github.com/Achalavimukthi/car_identifier.git
